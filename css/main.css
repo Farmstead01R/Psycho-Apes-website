@@ -1,0 +1,38 @@
+:root {
+    --darkest_orange: rgb(167, 93, 93);
+    --dark_orange: rgb(211, 117, 107);
+    --orange: rgb(240, 153, 125);
+    --light_orange: rgb(255, 195, 161);
+
+    --shadow: 2px 1px black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 10px;
+
+    background-color: var(--dark_orange);
+    border-bottom: 1px solid black;
+}
+
+.navbar li {
+    padding-left: 10px;
+
+    list-style: none;
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: var(--shadow);
+}
